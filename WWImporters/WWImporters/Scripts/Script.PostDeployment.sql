@@ -14,3 +14,5 @@ Post-Deployment Script Template
 EXEC [data].SystemParameters;
 
 
+PRINT 'Running data migration scripts'
+:r .\Migrations\1.MoveColumn.sql			

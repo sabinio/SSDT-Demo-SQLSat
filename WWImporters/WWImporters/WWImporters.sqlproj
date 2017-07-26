@@ -150,6 +150,7 @@
     <Folder Include="Security\Users" />
     <Folder Include="Scripts" />
     <Folder Include="Scripts\Jobs" />
+    <Folder Include="Scripts\Migrations" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Warehouse\Tables\Colors.sql">
@@ -614,6 +615,7 @@
     <None Include="WWImporters.publish.xml" />
     <None Include="Deploy.ps1" />
     <None Include="Scripts\Jobs\MyJob.sql" />
+    <None Include="Scripts\Migrations\1.MoveColumn.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
